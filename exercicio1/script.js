@@ -2,9 +2,11 @@
 
 //#a
 let numPar = prompt("Diga um numero Par!")
+numero = Number(numPar)
 console.log(numPar)
 //#b
-let divisao = numPar % 2
+let a = 2
+let divisao = numPar%a
 console.log(divisao)
 
 //#c
@@ -15,7 +17,3 @@ console.log(divisao)
 
 console.log(typeof numPar)
 console.log(typeof divisao)
-
-
-
-
