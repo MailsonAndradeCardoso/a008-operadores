@@ -4,7 +4,7 @@
 let numPar = prompt("Diga um numero Par!")
 console.log(numPar)
 //#b
-let divisao = numPar / 2
+let divisao = numPar % 2
 console.log(divisao)
 
 //#c
