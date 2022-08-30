@@ -12,7 +12,7 @@ console.log(operacaoA)
 
 //#b
 
-let operacaoB = a === 5 && a === "5"
+let operacaoB = a === 5 || a === "5"
 console.log(operacaoB)
 //tabela verdade (true+false = false)
 
